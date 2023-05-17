@@ -1,5 +1,6 @@
 '''Three numbers form a Pythogorean triple if the sum of the squares of two numbers
-is equal to the square of the third'''
+is equal to the square of the third.If
+they form a Pythoagorean triple, then print ‘1," otherwise print ‘0’.'''
 
 a,b,c=map(int,input("Enter triangle sides with space :").split())
 
