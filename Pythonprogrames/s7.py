@@ -12,7 +12,7 @@ if yr>=10:
     bonus=sa*(10/100)
     t=sa+bonus
     print("Your bonus is: ",t)
-elif yr>=6 or yr<=9:
+elif yr>=6 and yr<=9:
     bonus=sa*(8/100)
     t=sa+bonus
     print("Your bonus is: ",t)
